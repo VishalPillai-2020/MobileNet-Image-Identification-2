@@ -1,0 +1,59 @@
+body{
+    font-family:SF UI Display;
+    background:linear-gradient( lavender, turquoise, violet);
+}
+.header{
+    background-color:#fff;
+    color:dimgray;
+}
+.header img{
+    width:100px;
+}
+.main_div{
+    background-color:rgba(255, 255, 255, 0.712);
+    border-radius:20px;
+    padding:10px;
+    margin-top: 5px;
+    border:2px inset whitesmoke
+}
+.main_div label{
+    background-color:lightslategray;
+    color:white;
+    padding:10px;
+    width:310px;
+    box-shadow: 5px 5px 18px grey;
+}
+#webcam_view, #result_view{
+width:310px;
+height:300px;
+border:2px inset black;
+box-shadow: 5px 5px 18px grey;
+}
+.main_div button{
+    width:310px;
+    box-shadow: 5px 5px 18px grey;
+    font-size:20px;
+    border:2px inset black;
+}
+.footer_2{
+    margin:50px;
+}
+.footer_2 img{
+    width:50px;
+}
+.footer_2 h4{
+    background-color:rgba(255, 255, 255, 0.356);
+    padding:5px;
+    border-radius:10px;
+    box-shadow: 5px 5px 18px grey;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    line-height:3;
+    width:100%;
+    color:grey;
+    background-color:rgba(255, 255, 255, 0.541);
+    text-align:center;
+    font-weight:bold;
+}
